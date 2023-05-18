@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+}
+
+.footer {
+    margin-bottom: 0;
+    padding-top: 120px;
+}
