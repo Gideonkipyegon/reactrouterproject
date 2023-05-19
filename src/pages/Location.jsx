@@ -1,8 +1,8 @@
 function Location() {
-    return (
-<div>
- <h1>Location</h1>   
-</div>
+    return ( 
+    <div class="location">
+        <p>We are located at the WestMall third-floor</p>
+   </div>
     );
 }
 export default Location

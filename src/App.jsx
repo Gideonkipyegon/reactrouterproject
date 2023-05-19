@@ -9,24 +9,26 @@ import Home from './pages/Home'
 import Location from './pages/Location'
 import Contact from './pages/Contact'
 import About from './pages/About'
+// import NotFound from './pages/NotFound'
 
 function App() {
     // const [count, setCount] = useState(0)
 
-    return (
-      <div>
-      <BrowserRouter>
-      <Header />
-        <Routes>
-          <Route path="/Home" element={<Home />} /> 
-          <Route path="/About"element={<About />} /> 
-          <Route path="/Location" element={<Location />} /> 
-          <Route path="/contact" element={<Contact />} /> 
-        </Routes>
+    return ( 
+    <div >
+        <BrowserRouter >
+        <Header />
+        <Routes >
+        <Route path = "/" element = { < Home /> }/>  
+        <Route path = "/about" element = { < About /> }/>  
+        <Route path = "/location" element = { <Location />}/>  
+        <Route path = "/contact" element = { <Contact />}/> 
+        {/* <Route path="*" element={<NotFound />}/>  */}
+        </Routes> 
         <Footer />
-      </BrowserRouter>
-    
-     </div>
+        </BrowserRouter>
+
+    </div>
     );
 }
 export default App;

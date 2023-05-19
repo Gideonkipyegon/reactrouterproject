@@ -1,8 +1,7 @@
 function About() {
-    return (
-    <div>
-       <h1>About</h1>
-    </div>
+    return ( <
+        div class = "about" >
+        <p> i'm software developer at TheJitu company </p></div >
     );
 }
 export default About

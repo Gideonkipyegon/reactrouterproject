@@ -1,8 +1,10 @@
-function Home(){
-    retun( 
-    <div>
-       <h1>HOME PAGE</h1> 
+function Home() {
+    return( 
+    <div class="home">
+        
+        <p>welcome To my website</p>
+        
     </div>
     );
 }
-export default Home
+export default Home;
